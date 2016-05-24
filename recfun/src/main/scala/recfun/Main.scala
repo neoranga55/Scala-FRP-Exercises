@@ -24,7 +24,15 @@ object Main {
    * Exercise 2
    */
   def balance(chars: List[Char]): Boolean = {
-    
+    def balanceP(chars: List[Char], leftCount: Int, rightCount: Int): Boolean = {
+      if (leftCount >= rightCount && chars.isEmpty) true
+      else if (rightCount > leftCount) false
+      else if (chars.head != '(' && chars.head != ')') balanceP(chars.tail, leftCount, rightCount) // Ignore other characters
+      else if (chars.head == '(') balanceP(chars.tail, leftCount+1, rightCount)
+      else if (chars.head == ')') balanceP(chars.tail, leftCount, rightCount+1)
+      else false
+    }
+    balanceP(chars, 0, 0)
   }
 
   /**
