@@ -35,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="week1.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/example/week1.sc">
+      <file leaf-file-name="week2.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/example/week2.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18859139">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.3760186">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Scala Worksheet" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/example/ListsSuite.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/example/Lists.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/example/week1.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/example/week2.sc" />
       </list>
     </option>
   </component>
@@ -159,6 +160,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week1.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -704,7 +727,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1464440711453" expanded="true" signature="15:1281" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="49:383" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="295:361" placeholder="..." />
+            <marker date="1464440711453" expanded="true" signature="510:669" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="563:638" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="737:797" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="998:1080" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,7 +743,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1464440711453" expanded="true" signature="15:1281" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="49:383" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="295:361" placeholder="..." />
+            <marker date="1464440711453" expanded="true" signature="510:669" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="563:638" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="737:797" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="998:1080" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +759,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1464440711453" expanded="true" signature="15:1281" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="49:383" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="295:361" placeholder="..." />
+            <marker date="1464440711453" expanded="true" signature="510:669" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="563:638" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="737:797" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="998:1080" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +775,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1464440711453" expanded="true" signature="15:1281" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="49:383" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="295:361" placeholder="..." />
+            <marker date="1464440711453" expanded="true" signature="510:669" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="563:638" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="737:797" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="998:1080" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -798,8 +853,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/example/week1.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18859139">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
+          <folding>
+            <marker date="1464440711453" expanded="true" signature="15:1281" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="49:383" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="295:361" placeholder="..." />
+            <marker date="1464440711453" expanded="true" signature="510:669" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="563:638" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="737:797" placeholder="{...}" />
+            <marker date="1464440711453" expanded="true" signature="998:1080" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/example/week2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3760186">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
