@@ -38,8 +38,8 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46166667">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34151787">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -103,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView">
@@ -165,14 +166,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example" />
   </component>
   <component name="RunManager" selected="JUnit.CountChangeSuite">
     <configuration default="false" name="PascalSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -593,7 +593,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1464107872524" />
+    <option name="lastUpdateTimestamp" value="1464435885215" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -644,6 +644,9 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="853eca04-0081-4b4c-8824-8e57118c4192" name="Default" comment="" />
@@ -690,21 +693,21 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -715,6 +718,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -723,6 +734,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -749,72 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <marker date="1420590720000" expanded="false" signature="0:524" placeholder="/.../" />
-            <marker date="1420590720000" expanded="false" signature="585:680" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="682:3815" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="4277:14126" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="4490:4843" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="4929:5334" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="5385:5498" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="5502:5906" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="5961:6118" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="6122:6687" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="6760:7731" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="6766:6995" placeholder="/.../" />
-            <marker date="1420590720000" expanded="true" signature="7100:7700" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="7121:7213" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="7225:7700" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="7400:7692" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="7945:8042" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="8138:8262" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="8147:8262" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="8342:8625" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="8374:8625" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="8666:8810" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="8814:9114" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="9170:9288" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="9334:9515" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="9402:9487" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="9413:9487" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="9614:9810" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="9989:10384" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="10023:10358" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="10076:10352" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="10616:11556" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="10650:11525" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="10703:11519" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="11319:11425" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="11792:12434" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="11826:12404" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="11879:12398" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="12047:12301" placeholder="(...)" />
-            <marker date="1420590720000" expanded="true" signature="12078:12173" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="12191:12289" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="12503:12671" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="12740:12876" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="12798:12856" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="12951:13128" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="13132:13269" placeholder="/.../" />
-            <marker date="1420590720000" expanded="true" signature="13321:13427" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="13463:13626" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="13823:13894" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="13898:14043" placeholder="/.../" />
-            <marker date="1420590720000" expanded="true" signature="14128:14228" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="14311:14766" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="14668:14764" placeholder="..." />
-            <marker date="1420590720000" expanded="true" signature="14679:14764" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="14768:15088" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="15291:15369" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="15371:15437" placeholder="/**...*/" />
-            <marker date="1420590720000" expanded="true" signature="15475:16774" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="16014:16772" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="16070:16236" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="16242:16369" placeholder="/.../" />
-            <marker date="1420590720000" expanded="true" signature="16420:16656" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="16500:16650" placeholder="{...}" />
-            <marker date="1420590720000" expanded="true" signature="16545:16585" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46166667">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.34151787">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
