@@ -35,8 +35,8 @@
       <file leaf-file-name="FunSets.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62333333">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.7083333">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -71,10 +71,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,8 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -597,9 +596,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunSetSuite - 2016.05.28 at 21h 36m 37s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunSetSuite - 2016.05.28 at 21h 49m 59s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
@@ -627,34 +623,37 @@
     <history-entry file="FunSetSuite - 2016.05.28 at 22h 21m 29s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunSetSuite - 2016.05.28 at 22h 39m 54s.xml">
+      <configuration name="FunSetSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553419" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -671,19 +670,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/common/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03794643">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding>
-            <marker date="1443172150000" expanded="true" signature="43:1142" placeholder="{...}" />
-            <marker date="1443172150000" expanded="true" signature="48:139" placeholder="/**...*/" />
-            <marker date="1443172150000" expanded="true" signature="164:251" placeholder="/**...*/" />
-            <marker date="1443172150000" expanded="true" signature="275:397" placeholder="/**...*/" />
-            <marker date="1443172150000" expanded="true" signature="445:518" placeholder="{...}" />
-            <marker date="1443172150000" expanded="true" signature="522:694" placeholder="/**...*/" />
-            <marker date="1443172150000" expanded="true" signature="784:1140" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05666667">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <marker date="1443172150000" expanded="true" signature="41:103" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,126 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-          <folding>
-            <marker date="1422515700000" expanded="false" signature="0:600" placeholder="/.../" />
-            <marker date="1422515700000" expanded="false" signature="631:971" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="973:15427" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="15466:68374" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="15510:17573" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="17647:17731" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="17757:19819" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="17828:18390" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="17925:18384" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="17956:18376" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="18110:18329" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="18396:18713" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="18757:19104" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="18862:19098" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="19110:19427" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="19471:19815" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="19576:19809" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="19823:19896" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="20095:20475" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="20134:20475" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="20969:21357" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="21008:21357" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="21708:24534" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="24627:25933" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="26183:26315" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="26197:26311" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="26321:27266" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="27505:27623" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="27519:27619" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="27627:29701" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="29775:32603" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="32696:34008" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="34259:34388" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="34273:34384" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="34392:35343" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="35700:35815" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="35714:35811" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="35819:37372" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="37459:38982" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="39079:39738" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="39823:41814" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="41888:44516" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="44520:46127" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="46205:46912" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="46350:46609" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="46401:46558" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="46572:46601" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="46633:46908" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="46662:46787" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="46916:48556" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="48558:48704" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="48705:48855" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="48859:53842" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="53879:54013" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="54017:54987" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="55046:55383" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="55112:55379" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="55387:55764" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="55987:56233" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="56017:56229" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="56237:56596" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="56801:57047" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="56831:57043" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="57051:57744" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="57792:58060" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="57858:58056" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="58064:58441" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="58653:58885" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="58683:58881" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="58889:59248" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="59442:59674" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="59472:59670" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="59678:61700" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="61703:61784" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="61809:61861" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="61865:62187" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="62227:62385" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="62389:62850" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="62908:63143" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="63147:63579" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="63620:63772" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="63778:63867" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="63894:63943" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="63947:64282" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="64324:64479" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="64483:64946" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="65006:65238" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="65242:65683" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="65726:65875" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="65881:67118" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="67164:68191" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="67298:67600" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="67319:67600" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="67357:67551" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="67655:68004" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="68094:68181" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="68193:68372" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="68376:70287" placeholder="/**...*/" />
-            <marker date="1422515700000" expanded="true" signature="70325:72941" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="70385:70526" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="70623:71284" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="70629:70919" placeholder="/.../" />
-            <marker date="1422515700000" expanded="true" signature="70935:71280" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="70979:71119" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="70991:71119" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71136:71274" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="71158:71266" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71461:72150" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71550:71828" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="71601:71777" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71791:71820" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71852:72146" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="71881:72025" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="72206:72450" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="72286:72440" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="72592:72939" placeholder="{...}" />
-            <marker date="1422515700000" expanded="true" signature="72713:72929" placeholder="..." />
-            <marker date="1422515700000" expanded="true" signature="72763:72921" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62333333">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.7083333">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
           <folding />
         </state>
       </provider>
