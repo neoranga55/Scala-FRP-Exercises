@@ -56,7 +56,8 @@ abstract class TweetSet {
    * and be implemented in the subclasses?
    */
     def union(that: TweetSet): TweetSet
-  
+
+    def isEmpty: Boolean
   /**
    * Returns the tweet from this set which has the greatest retweet count.
    *
@@ -66,7 +67,7 @@ abstract class TweetSet {
    * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-    def mostRetweeted: Tweet = ???
+    def mostRetweeted: Tweet
   
   /**
    * Returns a list containing all tweets of this set, sorted by retweet count
@@ -77,7 +78,7 @@ abstract class TweetSet {
    * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-    def descendingByRetweet: TweetList = ???
+    def descendingByRetweet: TweetList
   
   /**
    * The following methods are already implemented
@@ -111,6 +112,12 @@ class Empty extends TweetSet {
     def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = acc
 
     def union(that: TweetSet): TweetSet = that
+
+    def isEmpty: Boolean = true
+
+    def mostRetweeted: Tweet = throw new NoSuchElementException
+
+    def descendingByRetweet: TweetList = Nil
   
   /**
    * The following methods are already implemented
@@ -146,7 +153,36 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 //      } else {
 //        new NonEmpty(elem, that.union(this.left), that.union(this.right))
 //      }
+    }
 
+    def isEmpty: Boolean = false
+
+    def mostSideRetweeted(side: TweetSet): Tweet = {
+      if (!side.isEmpty) {
+        val sideMax = side.mostRetweeted
+        if (sideMax.retweets >= elem.retweets) {
+          sideMax
+        } else {
+          elem
+        }
+      } else {
+        elem
+      }
+    }
+
+    def mostRetweeted: Tweet = {
+      val leftMax = mostSideRetweeted(left)
+      val rightMax = mostSideRetweeted(right)
+      if (leftMax.retweets >= rightMax.retweets) {
+        leftMax
+      } else {
+        rightMax
+      }
+    }
+
+    def descendingByRetweet: TweetList = {
+      val theMostRetweeted = mostRetweeted
+      new Cons(theMostRetweeted, remove(theMostRetweeted).descendingByRetweet)
     }
   /**
    * The following methods are already implemented
@@ -201,7 +237,7 @@ object GoogleVsApple {
   val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
   val apple = List("ios", "iOS", "iphone", "iPhone", "ipad", "iPad")
 
-    lazy val googleTweets: TweetSet = ???
+  lazy val googleTweets: TweetSet = ???
   lazy val appleTweets: TweetSet = ???
   
   /**
