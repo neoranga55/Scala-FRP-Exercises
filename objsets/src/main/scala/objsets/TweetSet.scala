@@ -45,7 +45,7 @@ abstract class TweetSet {
     def filter(p: Tweet => Boolean): TweetSet = filterAcc(p, new Empty)
   
   /**
-   * This is a helper method for `filter` that propagetes the accumulated tweets.
+   * This is a helper method for `filter` that propagates the accumulated tweets.
    */
     def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet
 
@@ -55,7 +55,7 @@ abstract class TweetSet {
    * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-    def union(that: TweetSet): TweetSet = ???
+    def union(that: TweetSet): TweetSet
   
   /**
    * Returns the tweet from this set which has the greatest retweet count.
@@ -109,6 +109,8 @@ abstract class TweetSet {
 
 class Empty extends TweetSet {
     def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = acc
+
+    def union(that: TweetSet): TweetSet = that
   
   /**
    * The following methods are already implemented
@@ -136,7 +138,16 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
         right.filterAcc(p, withLeftSet)
       }
     }
-  
+
+    def union(that: TweetSet): TweetSet = {
+      this.left.union( this.right.union(that) ).incl(elem)
+//      if (that.contains(elem)) {
+//        new NonEmpty(elem, this.left.union(that), this.right.union(that))
+//      } else {
+//        new NonEmpty(elem, that.union(this.left), that.union(this.right))
+//      }
+
+    }
   /**
    * The following methods are already implemented
    */
