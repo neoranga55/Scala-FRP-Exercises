@@ -75,7 +75,18 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-    def times(chars: List[Char]): List[(Char, Int)] = ???
+  def times(chars: List[Char]): List[(Char, Int)] = {
+    def occurs(char: Char, accu: List[(Char, Int)]): List[(Char, Int)] = {
+      if (accu.isEmpty) List((char, 1))
+      else accu.head match {
+        case (c, n) =>
+          if (char == c) (c, n + 1) :: accu.tail
+          else accu.head :: occurs(c, accu.tail)
+      }
+    }
+    if (chars.isEmpty) List[(Char, Int)]()
+    else occurs(chars.head, times(chars.tail))
+  }
   
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
