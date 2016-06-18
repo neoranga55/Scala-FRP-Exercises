@@ -126,8 +126,9 @@ object Huffman {
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-    def singleton(trees: List[CodeTree]): Boolean = trees.length == 1
-  
+  def singleton(trees: List[CodeTree]): Boolean = trees.length == 1
+
+
   /**
    * The parameter `trees` of this function is a list of code trees ordered
    * by ascending weights.
@@ -140,8 +141,34 @@ object Huffman {
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-    def combine(trees: List[CodeTree]): List[CodeTree] = ???
-  
+  def combine(trees: List[CodeTree]): List[CodeTree] = {
+    def insert(tree: CodeTree, trees: List[CodeTree]): List[CodeTree] = {
+      if (trees.isEmpty) List[(CodeTree)](tree)
+      else {
+        val treeWeight = getWeight(tree)
+        trees.head match {
+          case Fork(_, _, _, weight) if treeWeight > weight => trees.head :: insert(tree, trees.tail)
+          case Leaf(_, weight) if treeWeight <= weight => tree :: trees
+        }
+      }
+    }
+    def getChars(tree: CodeTree): List[Char] = tree match {
+      case Fork(_, _, chars, _) => chars
+      case Leaf(char, _) => List[Char](char)
+    }
+    def getWeight(tree: CodeTree): Int = tree match {
+      case Fork(_, _, _, weight) => weight
+      case Leaf(_, weight) => weight
+    }
+    if (trees.length < 2) trees
+    else {
+      val left = trees.head
+      val right = trees.tail.head
+      val newFork = Fork(left, right, getChars(left) ::: getChars(right), getWeight(left) + getWeight(right))
+      insert(newFork, trees.tail.tail)
+    }
+  }
+
   /**
    * This function will be called in the following way:
    *
@@ -160,7 +187,7 @@ object Huffman {
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
     def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
-  
+
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
    *
@@ -168,7 +195,7 @@ object Huffman {
    * frequencies from that text and creates a code tree based on them.
    */
     def createCodeTree(chars: List[Char]): CodeTree = ???
-  
+
 
   // Part 3: Decoding
 
