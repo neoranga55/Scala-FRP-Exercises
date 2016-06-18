@@ -206,7 +206,7 @@ object Huffman {
       tree match {
         case Fork(left, r, c, w) if bits.head == 0 => findCharacter(left, bits.tail)
         case Fork(l, right, c, w) if bits.head == 1 => findCharacter(right, bits.tail)
-        case Leaf(c, w) => (c, bits.tail)
+        case Leaf(char, _) => (char, bits)
       }
     }
     if (bits.isEmpty) List[Char]()
@@ -224,16 +224,20 @@ object Huffman {
 
   /**
    * What does the secret message say? Can you decode it?
-   * For the decoding use the `frenchCode' Huffman tree defined above.
+   * For the decoding use the 'frenchCode' Huffman tree defined above.
    */
   val secret: List[Bit] = List(0,0,1,1,1,0,1,0,1,1,1,0,0,1,1,0,1,0,0,1,1,0,1,0,1,1,0,0,1,1,1,1,1,0,1,0,1,1,0,0,0,0,1,0,1,1,1,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1)
 
   /**
    * Write a function that returns the decoded secret
    */
-    def decodedSecret: List[Char] = ???
-  
+  def decodedSecret: List[Char] = decode(frenchCode, secret)
 
+  val sebasCode: CodeTree = Fork(Leaf('A',8), Fork(Leaf('B',2), Leaf('C',1), List('B','C'), 3), List('A','B','C'), 11)
+
+  val sect: List[Bit] = List(0,1,1,0,1,0,0)
+
+  def decodeSebas: List[Char] = decode(sebasCode, sect)
   // Part 4a: Encoding using Huffman tree
 
   /**
