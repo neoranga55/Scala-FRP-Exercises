@@ -35,8 +35,8 @@
       <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3816667">
-              <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="135" column="75" selection-start-line="135" selection-start-column="75" selection-end-line="135" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -579,12 +579,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HuffmanSuite - 2016.06.18 at 12h 55m 46s.xml">
-      <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="HuffmanSuite - 2016.06.18 at 12h 56m 12s.xml">
-      <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="HuffmanSuite - 2016.06.18 at 12h 59m 00s.xml">
       <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -607,6 +601,12 @@
       <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="HuffmanSuite - 2016.06.18 at 16h 29m 23s.xml">
+      <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HuffmanSuite - 2016.06.18 at 16h 31m 59s.xml">
+      <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HuffmanSuite - 2016.06.18 at 16h 32m 18s.xml">
       <configuration name="HuffmanSuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -758,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3816667">
-          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="135" column="75" selection-start-line="135" selection-start-column="75" selection-end-line="135" selection-end-column="75" />
           <folding />
         </state>
       </provider>
