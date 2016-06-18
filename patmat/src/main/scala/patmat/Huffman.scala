@@ -264,7 +264,12 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-    def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+  def codeBits(table: CodeTable)(char: Char): List[Bit] = {
+    if (table.isEmpty) List[Bit]()
+    else table.head match {
+      case (c, bits) => if (char == c) bits else codeBits(table.tail)(char)
+    }
+  }
   
   /**
    * Given a code tree, create a code table which contains, for every character in the
@@ -278,10 +283,9 @@ object Huffman {
     def convertTree(tree: CodeTree, accu: List[Bit]): CodeTable = {
       tree match {
         case Leaf(char, _) => List[(Char, List[Bit])]((char, accu))
-        case Fork(left, right, _, _) => {
+        case Fork(left, right, _, _) =>
           mergeCodeTables(convertTree(left, accu ::: List[Bit](0)),
             convertTree(right, accu ::: List[Bit](1)))
-        }
       }
     }
     convertTree(tree, List[Bit]())
