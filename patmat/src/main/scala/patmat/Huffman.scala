@@ -87,15 +87,41 @@ object Huffman {
     if (chars.isEmpty) List[(Char, Int)]()
     else occurs(chars.head, times(chars.tail))
   }
-  
+
+
+
   /**
-   * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
-   *
-   * The returned list should be ordered by ascending weights (i.e. the
-   * head of the list should have the smallest weight), where the weight
-   * of a leaf is the frequency of the character.
-   */
-    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ???
+    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
+    *
+    * The returned list should be ordered by ascending weights (i.e. the
+    * head of the list should have the smallest weight), where the weight
+    * of a leaf is the frequency of the character.
+    */
+  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+    def insert(char: Char, num: Int, accu: List[(Char, Int)]): List[(Char, Int)] = {
+      if (accu.isEmpty) List[(Char, Int)]((char, num))
+      else accu.head match {
+        case (c, headN) if num > headN => accu.head :: insert(char, num, accu.tail)
+        case (c, headN) if num <= headN => (char, num) :: orderList(c, headN, accu.tail)
+      }
+    }
+    def orderList(char: Char, num: Int, accu: List[(Char, Int)]): List[(Char, Int)] = {
+      if (accu.isEmpty) List[(Char, Int)]((char, num))
+      else accu.head match {
+        case (c, n) => insert(char, num, orderList(c, n, accu.tail) )
+      }
+    }
+    def makeLeafList(tuples: List[(Char, Int)]): List[Leaf] = {
+      if (tuples.isEmpty) List[Leaf]()
+      else tuples.head match {
+        case (char, num) => Leaf(char, num) :: makeLeafList(tuples.tail)
+      }
+    }
+    freqs.head match {
+      case (char, num) => makeLeafList(orderList(char, num, freqs.tail))
+    }
+
+  }
   
   /**
    * Checks whether the list `trees` contains only one single code tree.
