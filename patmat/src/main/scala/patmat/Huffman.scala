@@ -145,27 +145,18 @@ object Huffman {
     def insert(tree: CodeTree, trees: List[CodeTree]): List[CodeTree] = {
       if (trees.isEmpty) List[(CodeTree)](tree)
       else {
-        val treeWeight = getWeight(tree)
+        val treeWeight = weight(tree)
         trees.head match {
           case Fork(_, _, _, weight) if treeWeight > weight => trees.head :: insert(tree, trees.tail)
           case Leaf(_, weight) if treeWeight <= weight => tree :: trees
         }
       }
     }
-    def getChars(tree: CodeTree): List[Char] = tree match {
-      case Fork(_, _, chars, _) => chars
-      case Leaf(char, _) => List[Char](char)
-    }
-    def getWeight(tree: CodeTree): Int = tree match {
-      case Fork(_, _, _, weight) => weight
-      case Leaf(_, weight) => weight
-    }
     if (trees.length < 2) trees
     else {
       val left = trees.head
       val right = trees.tail.head
-      val newFork = Fork(left, right, getChars(left) ::: getChars(right), getWeight(left) + getWeight(right))
-      insert(newFork, trees.tail.tail)
+      insert(makeCodeTree(left, right), trees.tail.tail)
     }
   }
 
@@ -186,7 +177,10 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-    def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
+  def until[T](test: List[T] => Boolean, func: List[T] => List[T])(list: List[T]): T = {
+    if (test(list)) list.head
+    else until(test, func)(func(list))
+  }
 
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -194,7 +188,9 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+  def createCodeTree(chars: List[Char]): CodeTree = {
+    until(singleton, combine)(makeOrderedLeafList(times(chars)))
+  }
 
 
   // Part 3: Decoding
