@@ -117,7 +117,8 @@ object Huffman {
         case (char, num) => Leaf(char, num) :: makeLeafList(tuples.tail)
       }
     }
-    freqs.head match {
+    if (freqs.isEmpty) List[Leaf]()
+    else freqs.head match {
       case (char, num) => makeLeafList(orderList(char, num, freqs.tail))
     }
 
