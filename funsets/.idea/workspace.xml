@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8df6574b-509b-4cee-b0dc-284da5576d2e" name="Default" comment="" />
+    <list default="true" id="81561a4d-7f57-4be0-9e3b-3c1b3ba20302" name="Default" comment="" />
     <ignored path="funsets.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/submission/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path="$PROJECT_DIR$/submission/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/submission/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,27 +27,6 @@
   <component name="FavoritesManager">
     <favorites_list name="funsets" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FunSets.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18372093">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Scala Worksheet" />
-      </list>
-    </option>
-  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -61,19 +37,11 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/scala/funsets/test.sc" />
-        <option value="$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,6 +69,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -115,7 +85,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
+              <option name="myItemId" value="root" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -133,41 +103,13 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
+              <option name="myItemId" value="root" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="funsets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="funsets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +125,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="assignment" />
+      <module name="root" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="funsets" />
@@ -391,7 +333,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="assignment" />
+      <module name="root" />
       <envs />
       <method />
     </configuration>
@@ -538,33 +480,25 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1464464157281" />
+    <option name="lastUpdateTimestamp" value="1466457527802" />
     <option name="availableProjects">
       <map>
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="funsets" />
+              <option name="name" value="progfun1-funsets" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="assignment" />
+                <option name="name" value="root" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="submission" />
-                <option name="path" value="$PROJECT_DIR$/submission" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="assignment-build" />
+                <option name="name" value="root-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="submission-build" />
-                <option name="path" value="$PROJECT_DIR$/submission/project" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -573,6 +507,10 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$/../example" value="1459512774000" />
+        <entry key="$PROJECT_DIR$/../objsets" value="1443189412000" />
+        <entry key="$PROJECT_DIR$/../patmat" value="1443605920000" />
+        <entry key="$PROJECT_DIR$/../recfun" value="1462365530000" />
         <entry key="$PROJECT_DIR$/../../../Proyectos/Curso Scala/example" value="1442478136000" />
         <entry key="$PROJECT_DIR$/../../../Proyectos/Curso Scala/recfun" value="1442481454000" />
       </map>
@@ -582,236 +520,55 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8df6574b-509b-4cee-b0dc-284da5576d2e" name="Default" comment="" />
-      <created>1464464057188</created>
+      <changelist id="81561a4d-7f57-4be0-9e3b-3c1b3ba20302" name="Default" comment="" />
+      <created>1466457368396</created>
       <option name="number" value="Default" />
-      <updated>1464464057188</updated>
+      <updated>1466457368396</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 12m 38s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 12m 45s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 14m 02s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 16m 53s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 21m 29s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.28 at 22h 39m 54s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.29 at 23h 00m 36s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.29 at 23h 06m 39s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.29 at 23h 06m 55s.xml">
-      <configuration name="FunSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunSetSuite - 2016.05.29 at 23h 08m 30s.xml">
+    <history-entry file="FunSetSuite - 2016.06.20 at 23h 18m 39s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26602563" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <marker date="1464556139190" expanded="true" signature="24:119" placeholder="..." />
-            <marker date="1464556139190" expanded="true" signature="121:355" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="422:3184" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="427:648" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="652:735" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="738:847" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="851:1277" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="1280:1338" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="1395:1437" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="1441:2158" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2177:2269" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2273:2538" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2576:2949" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="2583:2707" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2725:2945" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2733:2896" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="3001:3180" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="3020:3176" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <marker date="1464556139190" expanded="true" signature="24:119" placeholder="..." />
-            <marker date="1464556139190" expanded="true" signature="121:355" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="422:3184" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="427:648" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="652:735" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="738:847" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="851:1277" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="1280:1338" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="1395:1437" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="1441:2158" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2177:2269" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2273:2538" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2576:2949" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="2583:2707" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2725:2945" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2733:2896" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="3001:3180" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="3020:3176" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.4-sources.jar!/org/scalatest/Assertions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/common/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038288288">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038288288">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8344595">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <marker date="1464556139190" expanded="true" signature="24:119" placeholder="..." />
-            <marker date="1464556139190" expanded="true" signature="121:355" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="422:3184" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="427:648" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="652:735" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="738:847" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="851:1277" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="1280:1338" placeholder="/.../" />
-            <marker date="1464556139190" expanded="true" signature="1395:1437" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="1441:2158" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2177:2269" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2273:2538" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2576:2949" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="2583:2707" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="2725:2945" placeholder="{...}" />
-            <marker date="1464556139190" expanded="true" signature="2733:2896" placeholder="/**...*/" />
-            <marker date="1464556139190" expanded="true" signature="3001:3180" placeholder="(...)" />
-            <marker date="1464556139190" expanded="true" signature="3020:3176" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18372093">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
