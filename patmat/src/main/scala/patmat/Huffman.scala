@@ -147,10 +147,9 @@ object Huffman {
       if (trees.isEmpty) List[(CodeTree)](tree)
       else {
         val treeWeight = weight(tree)
-        trees.head match {
-          case Fork(_, _, _, weight) if treeWeight > weight => trees.head :: insert(tree, trees.tail)
-          case Leaf(_, weight) if treeWeight <= weight => tree :: trees
-        }
+        val nextWeight = weight(trees.head)
+        if (treeWeight > nextWeight) trees.head :: insert(tree, trees.tail)
+        else tree :: trees
       }
     }
     if (trees.length < 2) trees
