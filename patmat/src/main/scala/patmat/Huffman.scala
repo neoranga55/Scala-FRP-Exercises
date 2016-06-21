@@ -81,7 +81,7 @@ object Huffman {
       else accu.head match {
         case (c, n) =>
           if (char == c) (c, n + 1) :: accu.tail
-          else accu.head :: occurs(c, accu.tail)
+          else accu.head :: occurs(char, accu.tail)
       }
     }
     if (chars.isEmpty) List[(Char, Int)]()
