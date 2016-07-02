@@ -85,9 +85,9 @@ object Anagrams {
     permutations match {
       case Nil => List(accumulator.sorted)
       case (character, times) :: tail => (for {
-        permutationList <- letterPermutations(character, times) // e.g. L(), L((a,1)), L((a,2))
-      } yield if (permutationList.isEmpty) combineForExpression(accumulator, tail)
-      else combineForExpression(permutationList.head :: accumulator, tail)).flatten
+        taken <- 0 to times
+      } yield if (taken == 0) combineForExpression(accumulator, tail)
+      else combineForExpression((character, taken) :: accumulator, tail)).flatten.toList
     }
   }
   /** Returns the list of all subsets of the occurrence list.

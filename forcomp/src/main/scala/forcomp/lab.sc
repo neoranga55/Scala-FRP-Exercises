@@ -28,9 +28,9 @@ def combine(accumulator: Occurrences, permutations: Occurrences): List[Occurrenc
   permutations match {
     case Nil => List(accumulator) // Missing sorting => List(accumulator.sorted)
     case (character, times) :: tail => (for {
-      permutationList <- letterPermutations(character, times) // e.g. L(), L((a,1)), L((a,2))
-    } yield if (permutationList.isEmpty) combine(accumulator, tail)
-    else combine(permutationList.head :: accumulator, tail)).flatten
+        taken <- 0 to times
+      } yield if (taken == 0) combine(accumulator, tail)
+      else combine((character, taken) :: accumulator, tail)).flatten.toList
   }
 }
 
