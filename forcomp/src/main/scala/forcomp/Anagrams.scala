@@ -65,12 +65,12 @@ object Anagrams {
   /** Returns all the anagrams of a given word. */
   def wordAnagrams(word: Word): List[Word] = dictionaryByOccurrences(wordOccurrences(word))
 
-  def letterPermutations(character: Char, times: Int): List[Occurrences] = {
-    (for (taken <- 0 to times)
-      yield if (taken > 0) (character, taken) :: List() else List()).toList
-  }
-
   def combineList(accumulator: Occurrences, permutations: Occurrences): List[Occurrences] = {
+    def letterPermutations(character: Char, times: Int): List[Occurrences] = {
+      (for (taken <- 0 to times)
+        yield if (taken > 0) (character, taken) :: List() else List()).toList
+    }
+
     permutations match {
       case Nil => List(accumulator)
       case (character, times) :: tail =>
@@ -125,13 +125,23 @@ object Anagrams {
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
    */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences =
-    for {
-      (subLetter, subCounter) <- y
-      (letter, counter) <- x
-      if letter != subLetter || (counter - subCounter > 0) // Filter when occurrence becomes 0
-    } yield if (letter == subLetter) (letter, counter - subCounter)
-      else (letter, counter)
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = {
+    def subtractItem(head: (Char, Int), x: Occurrences): Occurrences = {
+      head match {
+        case (subLetter, subCounter) =>
+          for {
+            (letter, counter) <- x
+            if letter != subLetter || (counter - subCounter) > 0 // Filter when occurrence becomes 0
+          } yield if (letter == subLetter) (letter, counter - subCounter)
+          else (letter, counter)
+      }
+    }
+    
+    y match {
+      case Nil => x
+      case (head :: tail) => subtract(subtractItem(head, x), tail)
+    }
+  }
 
   /** Returns a list of all anagram sentences of the given sentence.
    *

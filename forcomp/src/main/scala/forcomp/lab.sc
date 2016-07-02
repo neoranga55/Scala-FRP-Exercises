@@ -8,20 +8,27 @@ List('a', 'd', 'i', 'd', 'a', 's')
 
 type Occurrences = List[(Char, Int)]
 
+def subtractItem(head: (Char, Int), x: Occurrences): Occurrences =
+  head match {
+    case (subLetter, subCounter) =>
+      for {
+        (letter, counter) <- x
+        if letter != subLetter || (counter - subCounter) > 0 // Filter when occurrence becomes 0
+      } yield if (letter == subLetter) (letter, counter - subCounter)
+      else (letter, counter)
+  }
 
-//def subtract(x: Occurrences, y: Occurrences): Occurrences =
-  for {
-    (subLetter, subCounter) <- List(('d', 1), ('r', 1))
-    (letter, counter) <- List(('a', 1), ('d', 2), ('l', 1), ('r', 1))
-  } yield if (letter == subLetter) (letter, counter - subCounter)
-  else (letter, counter)
+def subtract(x: Occurrences, y: Occurrences): Occurrences = {
+  y match {
+    case Nil => x
+    case (head :: tail) => subtract(subtractItem(head, x), tail)
+  }
+}
 
+val lard = List(('a', 1), ('d', 2), ('l', 1), ('r', 1))
+val r = List(('d', 1), ('r', 1))
 
-val lard = List(('a', 1), ('d', 1), ('l', 1), ('r', 1))
-val r = List(('r', 1))
-val lad = List(('a', 1), ('d', 1), ('l', 1))
-//subtract(lard, r)
-//assert(subtract(lard, r) === lad)
+subtract(lard, r)
 
 
 def letterPermutations(character: Char, times: Int): List[Occurrences] = {
