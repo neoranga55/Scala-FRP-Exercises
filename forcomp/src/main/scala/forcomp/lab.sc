@@ -7,6 +7,23 @@ List('a', 'd', 'i', 'd', 'a', 's')
 
 
 type Occurrences = List[(Char, Int)]
+
+
+//def subtract(x: Occurrences, y: Occurrences): Occurrences =
+  for {
+    (subLetter, subCounter) <- List(('d', 1), ('r', 1))
+    (letter, counter) <- List(('a', 1), ('d', 2), ('l', 1), ('r', 1))
+  } yield if (letter == subLetter) (letter, counter - subCounter)
+  else (letter, counter)
+
+
+val lard = List(('a', 1), ('d', 1), ('l', 1), ('r', 1))
+val r = List(('r', 1))
+val lad = List(('a', 1), ('d', 1), ('l', 1))
+//subtract(lard, r)
+//assert(subtract(lard, r) === lad)
+
+
 def letterPermutations(character: Char, times: Int): List[Occurrences] = {
   (for (taken <- 0 to times)
     yield if (taken > 0) (character, taken) :: List() else List()).toList
