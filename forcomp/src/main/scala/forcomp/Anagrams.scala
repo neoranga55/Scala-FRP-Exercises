@@ -65,6 +65,31 @@ object Anagrams {
   /** Returns all the anagrams of a given word. */
   def wordAnagrams(word: Word): List[Word] = dictionaryByOccurrences(wordOccurrences(word))
 
+  def letterPermutations(character: Char, times: Int): List[Occurrences] = {
+    (for (taken <- 0 to times)
+      yield if (taken > 0) (character, taken) :: List() else List()).toList
+  }
+
+  def combineList(accumulator: Occurrences, permutations: Occurrences): List[Occurrences] = {
+    permutations match {
+      case Nil => List(accumulator)
+      case (character, times) :: tail =>
+        letterPermutations(character, times).flatMap( permutationList =>
+          if (permutationList.isEmpty) combineList(accumulator, tail)
+          else combineList(permutationList.head :: accumulator, tail)
+        )
+    }
+  }
+
+  def combineForExpression(accumulator: Occurrences, permutations: Occurrences): List[Occurrences] = {
+    permutations match {
+      case Nil => List(accumulator.sorted)
+      case (character, times) :: tail => (for {
+        permutationList <- letterPermutations(character, times) // e.g. L(), L((a,1)), L((a,2))
+      } yield if (permutationList.isEmpty) combineForExpression(accumulator, tail)
+      else combineForExpression(permutationList.head :: accumulator, tail)).flatten
+    }
+  }
   /** Returns the list of all subsets of the occurrence list.
    *  This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
    *  is a subset of `List(('k', 1), ('o', 1))`.
@@ -87,7 +112,8 @@ object Anagrams {
    *  Note that the order of the occurrence list subsets does not matter -- the subsets
    *  in the example above could have been displayed in some other order.
    */
-  def combinations(occurrences: Occurrences): List[Occurrences] = ???
+  def combinations(occurrences: Occurrences): List[Occurrences] =
+    combineForExpression(List(), occurrences)
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
    *
