@@ -190,7 +190,7 @@ object Anagrams {
         (for {
           combination <- combinations(occurrences)
           word <- dictionaryByOccurrences(combination)
-          if combination.nonEmpty && word.nonEmpty
+          if combination.nonEmpty
         } yield occurrencesAnagrams(word :: accumulatedSentence, subtract(occurrences, combination))).flatten
       }
     }
