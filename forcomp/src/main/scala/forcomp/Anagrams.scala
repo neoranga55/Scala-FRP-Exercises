@@ -60,7 +60,7 @@ object Anagrams {
    *
    */
   lazy val dictionaryByOccurrences: Map[Occurrences, List[Word]] =
-    dictionary.groupBy((word: Word) => wordOccurrences(word))
+    dictionary.groupBy((word: Word) => wordOccurrences(word)).withDefaultValue(List())
 
   /** Returns all the anagrams of a given word. */
   def wordAnagrams(word: Word): List[Word] = dictionaryByOccurrences(wordOccurrences(word))
@@ -136,7 +136,7 @@ object Anagrams {
           else (letter, counter)
       }
     }
-    
+
     y match {
       case Nil => x
       case (head :: tail) => subtract(subtractItem(head, x), tail)
@@ -183,5 +183,33 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+    def occurrencesAnagrams(accumulatedSentence: Sentence, occurrences: Occurrences): List[Sentence] = {
+      if (occurrences.isEmpty) List(accumulatedSentence)
+      else {
+        (for {
+          combination <- combinations(occurrences) filter ( c => c.nonEmpty )
+          word <- dictionaryByOccurrences(combination) filter ( w => w.nonEmpty )
+          if combination.nonEmpty && word.nonEmpty
+        } yield occurrencesAnagrams(word :: accumulatedSentence, subtract(occurrences, combination))).flatten
+      }
+    }
+    if (sentence.isEmpty) List(sentence)
+    else occurrencesAnagrams(List(), sentenceOccurrences(sentence))
+  }
+  /**
+    * Recipe ingredients
+    * 1- sentenceOccurrences(sentence): Occurrences  // Converts a sentence into its character occurrence list.
+    * 2- combinations(occurrences: Occurrences): List[Occurrences]  // list of all subsets of the occurrence list
+    * 4- subtract(x: Occurrences, y: Occurrences): Occurrences  // Subtracts occurrence list `y` from occurrence list `x`
+    * 5- dictionaryByOccurrences: Map[Occurrences, List[Word]]
+    *
+    * Recipe preparation
+    * 1- Get all letters with occurrence
+    * 2- get all possible combinations of the sentence letters
+    * 3- Try for every permutation to find a match in dictionaryByOccurrences(5)
+    *     Then remove(4) the used word-occurrences from 1
+    *     For every word in List[Word] from dictionaryByOccurrences(5),
+    *         add the word to the accumulator result and call the recursion
+    */
 }
