@@ -188,8 +188,8 @@ object Anagrams {
       if (occurrences.isEmpty) List(accumulatedSentence)
       else {
         (for {
-          combination <- combinations(occurrences) filter ( c => c.nonEmpty )
-          word <- dictionaryByOccurrences(combination) filter ( w => w.nonEmpty )
+          combination <- combinations(occurrences)
+          word <- dictionaryByOccurrences(combination)
           if combination.nonEmpty && word.nonEmpty
         } yield occurrencesAnagrams(word :: accumulatedSentence, subtract(occurrences, combination))).flatten
       }
